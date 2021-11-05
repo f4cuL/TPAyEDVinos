@@ -1,0 +1,4 @@
+#ifndef LISTA_HPP_INCLUDED
+#define LISTA_HPP_INCLUDED
+
+#endif // LISTA_HPP_INCLUDED

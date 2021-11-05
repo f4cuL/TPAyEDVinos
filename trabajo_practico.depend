@@ -1,0 +1,284 @@
+# depslib dependency file v1.0
+1632206588 source:c:\users\kuzni\onedrive\escritorio\trabajo_practico\main.cpp
+	<iostream>
+	"Lista.h"
+	"usuario.h"
+
+1632188231 source:c:\users\kuzni\onedrive\escritorio\trabajo_practico\usuario.c
+
+1632195589 source:c:\users\kuzni\onedrive\escritorio\trabajo_practico\lista.c
+	"Lista.h"
+	<stdlib.h>
+	<string.h>
+
+1632206567 c:\users\kuzni\onedrive\escritorio\trabajo_practico\lista.h
+	"usuario.h"
+
+1632205455 c:\users\kuzni\onedrive\escritorio\trabajo_practico\usuario.h
+	<string>
+
+1632205465 source:c:\users\kuzni\onedrive\escritorio\trabajo_practico\usuario.cpp
+	<iostream>
+	<string.h>
+	<string>
+	"usuario.h"
+
+1632206599 source:c:\users\kuzni\onedrive\escritorio\trabajo_practico\lista.cpp
+	<iostream>
+	"Lista.h"
+	<stdlib.h>
+	<string.h>
+	"usuario.h"
+
+1632205662 c:\users\kuzni\onedrive\escritorio\trabajo_practico\lista.hpp
+	"usuario.h"
+
+1632202453 c:\users\kuzni\onedrive\escritorio\trabajo_practico\usuario.hpp
+
+1633466313 source:c:\users\kuzni\onedrive\escritorio\copia\trabajo_practico\lista.cpp
+	<iostream>
+	"Lista.h"
+	<stdlib.h>
+	<string.h>
+	"usuario.h"
+
+1633466313 c:\users\kuzni\onedrive\escritorio\copia\trabajo_practico\lista.h
+	"usuario.h"
+	"vino.h"
+
+1632260016 c:\users\kuzni\onedrive\escritorio\copia\trabajo_practico\usuario.h
+	<string>
+
+1633471992 source:c:\users\kuzni\onedrive\escritorio\copia\trabajo_practico\main.cpp
+	<iostream>
+	"Lista.h"
+	"usuario.h"
+	"vino.h"
+	"beneficio.hpp"
+
+1632260752 source:c:\users\kuzni\onedrive\escritorio\copia\trabajo_practico\usuario.cpp
+	<iostream>
+	<string.h>
+	<string>
+	"usuario.h"
+
+1633460447 c:\users\kuzni\onedrive\escritorio\copia\trabajo_practico\vino.h
+	<string>
+
+1633460448 source:c:\users\kuzni\onedrive\escritorio\copia\trabajo_practico\vino.cpp
+	<iostream>
+	"vino.h"
+	<string.h>
+
+1633462969 c:\users\kuzni\onedrive\escritorio\copia\trabajo_practico\beneficio.hpp
+	"Lista.h"
+
+1633471801 source:c:\users\kuzni\onedrive\escritorio\copia\trabajo_practico\beneficio.cpp
+	<iostream>
+	<string.h>
+	<string>
+	"Lista.h"
+	"beneficio.hpp"
+
+1633815604 source:c:\users\kuzni\onedrive\escritorio\trabajo practico actualizado\trabajo_practico\beneficio.cpp
+	<iostream>
+	<string.h>
+	<string>
+	"Lista.h"
+	"beneficio.hpp"
+
+1635205450 c:\users\kuzni\onedrive\escritorio\trabajo practico actualizado\trabajo_practico\lista.h
+	"usuario.h"
+	"vino.h"
+
+1632260016 c:\users\kuzni\onedrive\escritorio\trabajo practico actualizado\trabajo_practico\usuario.h
+	<string>
+
+1634669769 c:\users\kuzni\onedrive\escritorio\trabajo practico actualizado\trabajo_practico\vino.h
+	<string>
+
+1633462969 c:\users\kuzni\onedrive\escritorio\trabajo practico actualizado\trabajo_practico\beneficio.hpp
+	"Lista.h"
+
+1634671468 source:c:\users\kuzni\onedrive\escritorio\trabajo practico actualizado\trabajo_practico\lista.cpp
+	<iostream>
+	"Lista.h"
+	<stdlib.h>
+	<string.h>
+	<cstring>
+	"usuario.h"
+
+1635205142 source:c:\users\kuzni\onedrive\escritorio\trabajo practico actualizado\trabajo_practico\main.cpp
+	<iostream>
+	"Lista.h"
+	"usuario.h"
+	"vino.h"
+	"beneficio.hpp"
+
+1632260752 source:c:\users\kuzni\onedrive\escritorio\trabajo practico actualizado\trabajo_practico\usuario.cpp
+	<iostream>
+	<string.h>
+	<string>
+	"usuario.h"
+
+1634669793 source:c:\users\kuzni\onedrive\escritorio\trabajo practico actualizado\trabajo_practico\vino.cpp
+	<iostream>
+	"vino.h"
+	<string.h>
+
+1633815604 source:c:\users\ericj\desktop\programacion\c++\trabajo_practico(ayed)\beneficio.cpp
+	<iostream>
+	<string.h>
+	<string>
+	"Lista.h"
+	"beneficio.hpp"
+
+1635797371 c:\users\ericj\desktop\programacion\c++\trabajo_practico(ayed)\lista.h
+	"usuario.h"
+	"vino.h"
+
+1635998068 c:\users\ericj\desktop\programacion\c++\trabajo_practico(ayed)\usuario.h
+	<string>
+
+1635998060 c:\users\ericj\desktop\programacion\c++\trabajo_practico(ayed)\vino.h
+	<string>
+
+1633462969 c:\users\ericj\desktop\programacion\c++\trabajo_practico(ayed)\beneficio.hpp
+	"Lista.h"
+
+1635820005 source:c:\users\ericj\desktop\programacion\c++\trabajo_practico(ayed)\lista.cpp
+	<iostream>
+	"Lista.h"
+	<stdlib.h>
+	<string.h>
+	<cstring>
+	"usuario.h"
+	"vino.h"
+
+1635996843 source:c:\users\ericj\desktop\programacion\c++\trabajo_practico(ayed)\usuario.cpp
+	<iostream>
+	<string.h>
+	<string>
+	"usuario.h"
+
+1635791390 source:c:\users\ericj\desktop\programacion\c++\trabajo_practico(ayed)\vino.cpp
+	<iostream>
+	"vino.h"
+	<string.h>
+
+1636047549 source:c:\users\ericj\desktop\programacion\c++\trabajo_practico(ayed)\main.cpp
+	<iostream>
+	<fstream>
+	"string.h"
+	"Lista.h"
+	"usuario.h"
+	"vino.h"
+	"beneficio.hpp"
+
+1636134228 source:c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\beneficio.cpp
+	<iostream>
+	<string.h>
+	<string>
+	"Lista.h"
+	"beneficio.h"
+
+1636088229 c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\lista.h
+	"usuario.h"
+	"vino.h"
+	"beneficio.h"
+
+1635998068 c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\usuario.h
+	<string>
+
+1636090949 c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\vino.h
+	<string>
+
+1633462969 c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\beneficio.hpp
+	"Lista.h"
+
+1636134143 source:c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\lista.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<cstring>
+	"Lista.h"
+	"usuario.h"
+	"vino.h"
+	"beneficio.h"
+
+1636134097 source:c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"string.h"
+	"Lista.h"
+	"usuario.h"
+	"vino.h"
+	"beneficio.h"
+
+1635996843 source:c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\usuario.cpp
+	<iostream>
+	<string.h>
+	<string>
+	"usuario.h"
+
+1636133697 source:c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\vino.cpp
+	<iostream>
+	"vino.h"
+	<string.h>
+
+1636134228 c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\beneficio.h
+	"Lista.h"
+
+1636134228 source:c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\beneficio.cpp
+	<iostream>
+	<string.h>
+	<string>
+	"Lista.h"
+	"beneficio.h"
+
+1636088229 c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\lista.h
+	"usuario.h"
+	"vino.h"
+	"beneficio.h"
+
+1635998068 c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\usuario.h
+	<string>
+
+1636090949 c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\vino.h
+	<string>
+
+1636134228 c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\beneficio.h
+	"Lista.h"
+
+1636134143 source:c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\lista.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<cstring>
+	"Lista.h"
+	"usuario.h"
+	"vino.h"
+	"beneficio.h"
+
+1636134660 source:c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"string.h"
+	"Lista.h"
+	"usuario.h"
+	"vino.h"
+	"beneficio.h"
+
+1635996843 source:c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\usuario.cpp
+	<iostream>
+	<string.h>
+	<string>
+	"usuario.h"
+
+1636133697 source:c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\vino.cpp
+	<iostream>
+	"vino.h"
+	<string.h>
+
