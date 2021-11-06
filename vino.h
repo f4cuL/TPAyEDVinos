@@ -34,6 +34,7 @@ void setSegmentoDelVino(Vino* v,char* segmentoDelVino);
 void getVarietal(Vino* v,char* varietal);
 void setAnioCosecha(Vino* v,int anioCosecha);
 void setTerroir(Vino* v,char* terroir);
+void setVecesSeleccionado(Vino* v, int n);
 //Funciones
 void mostrarVino(Vino* v);
 

@@ -182,7 +182,7 @@
 	"Lista.h"
 	"beneficio.h"
 
-1636088229 c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\lista.h
+1636169307 c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\lista.h
 	"usuario.h"
 	"vino.h"
 	"beneficio.h"
@@ -190,13 +190,13 @@
 1635998068 c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\usuario.h
 	<string>
 
-1636090949 c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\vino.h
+1636167191 c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\vino.h
 	<string>
 
 1633462969 c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\beneficio.hpp
 	"Lista.h"
 
-1636134143 source:c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\lista.cpp
+1636170356 source:c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\lista.cpp
 	<iostream>
 	<stdlib.h>
 	<string.h>
@@ -206,7 +206,9 @@
 	"vino.h"
 	"beneficio.h"
 
-1636134097 source:c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\main.cpp
+1636170306 source:c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\main.cpp
+	<locale.h>
+	<wchar.h>
 	<iostream>
 	<fstream>
 	<vector>
@@ -222,7 +224,7 @@
 	<string>
 	"usuario.h"
 
-1636133697 source:c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\vino.cpp
+1636167190 source:c:\users\kuzni\onedrive\escritorio\trabajo_practico(ayed)\vino.cpp
 	<iostream>
 	"vino.h"
 	<string.h>
@@ -237,7 +239,7 @@
 	"Lista.h"
 	"beneficio.h"
 
-1636088229 c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\lista.h
+1636169307 c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\lista.h
 	"usuario.h"
 	"vino.h"
 	"beneficio.h"
@@ -245,13 +247,13 @@
 1635998068 c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\usuario.h
 	<string>
 
-1636090949 c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\vino.h
+1636167191 c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\vino.h
 	<string>
 
 1636134228 c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\beneficio.h
 	"Lista.h"
 
-1636134143 source:c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\lista.cpp
+1636170356 source:c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\lista.cpp
 	<iostream>
 	<stdlib.h>
 	<string.h>
@@ -261,7 +263,9 @@
 	"vino.h"
 	"beneficio.h"
 
-1636134660 source:c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\main.cpp
+1636170449 source:c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\main.cpp
+	<locale.h>
+	<wchar.h>
 	<iostream>
 	<fstream>
 	<vector>
@@ -277,7 +281,7 @@
 	<string>
 	"usuario.h"
 
-1636133697 source:c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\vino.cpp
+1636167190 source:c:\users\facue\onedrive\escritorio\algoritmos y estructuras de datos\trabajo_practico(ayed)\vino.cpp
 	<iostream>
 	"vino.h"
 	<string.h>

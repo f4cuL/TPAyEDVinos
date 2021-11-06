@@ -2,23 +2,24 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="Lista.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Vino.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="911" topLine="0" />
+			<Cursor1 position="1721" topLine="58" />
 		</Cursor>
 	</File>
 	<File name="main.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="532" topLine="0" />
+			<Cursor1 position="4203" topLine="135" />
 		</Cursor>
-		<Folding>
-			<Collapse line="28" />
-			<Collapse line="244" />
-		</Folding>
+	</File>
+	<File name="usuario.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="243" topLine="0" />
+		</Cursor>
 	</File>
 	<File name="vino.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="684" topLine="15" />
+			<Cursor1 position="1008" topLine="26" />
 		</Cursor>
 	</File>
 	<File name="usuario.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -26,29 +27,24 @@
 			<Cursor1 position="170" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Lista.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="6585" topLine="208" />
-		</Cursor>
-	</File>
-	<File name="usuario.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="243" topLine="9" />
-		</Cursor>
-	</File>
 	<File name="Beneficio.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1366" topLine="18" />
+			<Cursor1 position="802" topLine="48" />
+		</Cursor>
+	</File>
+	<File name="Lista.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6409" topLine="221" />
+		</Cursor>
+	</File>
+	<File name="Lista.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1235" topLine="30" />
 		</Cursor>
 	</File>
 	<File name="beneficio.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="0" topLine="9" />
-		</Cursor>
-	</File>
-	<File name="Vino.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1033" topLine="28" />
+			<Cursor1 position="203" topLine="31" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

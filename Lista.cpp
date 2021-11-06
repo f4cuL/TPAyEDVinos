@@ -205,6 +205,7 @@ void MostrarListaVino(Lista* l1){
     Nodo* puntero = l1->Primero;
     while(puntero){
         mostrarVino(puntero->v);
+        puntero->v->veceSeleccionado = 0;
         puntero = puntero->Siguiente;
     }
 }
@@ -223,6 +224,32 @@ void ranking_de_vinos(long IDV , Lista* lista){
     }
 }
 
+//Ranking Bodega
+void rankingBodega(long IDV, Lista* lista){
+    Nodo* nodoAux = lista->Primero;
+    while(nodoAux->Siguiente!=NULL){
+        Vino* v = nodoAux->v;
+        if(v->anioCosecha != 2021){
+            v->veceSeleccionado = 0;
+        }
+        if(getIdV(v)==IDV && v->anioCosecha==2021){
+            nodoAux->v->veceSeleccionado = nodoAux->v->veceSeleccionado+1;
+        }
+        nodoAux=nodoAux->Siguiente;
+    }
+}
+
+void Limpiar_Vinos_seleccionados(Lista* lista){
+    Nodo* nodoAux = lista->Primero;
+    while(nodoAux->Siguiente!=NULL){
+        if(nodoAux->v->anioCosecha != 2021){
+            nodoAux->v->veceSeleccionado = 0;
+        }
+        setVecesSeleccionado(nodoAux->v,0);
+        nodoAux=nodoAux->Siguiente;
+    }
+
+}
 
 //por ultimo oredenamos con el "orenamiento burbuja" en base al la variable ranking
 void ordenamientoRanking(Lista* lista){

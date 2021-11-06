@@ -67,6 +67,9 @@ void setAnioCosecha(Vino* v,int anioCosecha){
 void setTerroir(Vino* v,char* terroir){
     strcpy(v->terroir,terroir);
 }
+void setVecesSeleccionado(Vino* v, int n){
+    v->veceSeleccionado = n;
+}
 void mostrarVino(Vino* v){
     cout<<"--------------------------"<<endl;
     cout<<"Id: "<<v->id<<endl;

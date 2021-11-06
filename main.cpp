@@ -1,3 +1,5 @@
+#include<locale.h>
+#include <wchar.h>
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -13,17 +15,18 @@ void ingresarBeneficios(Lista* l);
 
 int main()
 {
+    setlocale(LC_ALL, "");
     bool menu=true;
     int opcion;
     Lista* lu = CrearLista();
     Lista* lv = CrearLista();
     Lista* lb = CrearLista();
-    cout<<"BIENVENIDO AL SISTEMA DE USUARIOS , VINOS Y BENEFICIOS"<<endl;
+    cout<<"BIENVENIDO AL SISTEMA DE USURIOS , VINOS Y BENEFICIOS"<<endl;
     system("pause");
     system("cls");
     while(menu)
     {
-        cout<<"Opcion 1- Cargar usuarios desde archivo\nOpcion 2- Mostrar usuarios\nOpcion 3- Cargar vinos desde archivos\nOpcion 4- Mostrar vinos\nOpcion 5- Cargar beneficios\nOpcion 6- Mostrar beneficios\nOpcion 7- Realizar ranking\nOpcion 8- Mostrar Ranking ordenado\nOpcion 0- Salir" <<endl;
+        cout<<"Opcion 1- Cargar usuarios desde archivo\nOpcion 2- Mostrar usuarios\nOpcion 3- Cargar vinos desde archivos\nOpcion 4- Mostrar vinos\nOpcion 5- Cargar beneficios\nOpcion 6- Mostrar beneficios\nOpcion 7- Realizar ranking\nOpcion 8- Mostrar Ranking ordenado\nOpcion 9- Ordenamiento por bodega\nOpcion 0- Salir" <<endl;
         cin >> opcion;
         switch (opcion)
         {
@@ -135,28 +138,38 @@ int main()
         case 7:
             {
                 if (ObtenerLongitud(lv)>0){
-                    if(ObtenerLongitud(lb)>0){
-                        system("cls");
-                        Nodo* puntero = lb->Primero;
-                        Nodo* puntero2 = lv->Primero;
-                        while(puntero->Siguiente != NULL){
-                            //cout<<getIdV(puntero2->v)<<endl;
-                            for(int i = 0; i < 6 ; i++){
-                                long aux = getSeleccionVinos(puntero->b)[i];
-                                ranking_de_vinos(aux,lv);
-                                //cout<<getRanking(puntero2->v)<<endl;
+                    Limpiar_Vinos_seleccionados(lv);
+                    if(ObtenerLongitud(lu)>0){
+                        if(ObtenerLongitud(lb)>0){
+                            system("cls");
+                            Nodo* puntero = lb->Primero;
+                            Nodo* puntero2 = lv->Primero;
+                            while(puntero->Siguiente != NULL){
+
+                                for(int i = 0; i < 6 ; i++){
+                                    long aux = getSeleccionVinos(puntero->b)[i];
+                                    ranking_de_vinos(aux,lv);
+                                }
+                                puntero = puntero->Siguiente;
+
                             }
-                            puntero = puntero->Siguiente;
-                            //puntero2 = puntero2->Siguiente;
+                            cout<<"Se realizo el ranking corectamente"<<endl;
+                            system("pause");
+                            system("cls");
+
+                        }else{
+
+                            system("cls");
+                            cout <<"No hay beneficios en la lista beneficios"<<endl;
+                            system("pause");
+                            system("cls");
+
                         }
-                        cout<<"Se realizo el ranking corectamente"<<endl;
-                        system("pause");
-                        system("cls");
 
                     }else{
 
                         system("cls");
-                        cout <<"No hay beneficios en la lista"<<endl;
+                        cout <<"No hay Usuarios en la lista de usuarios"<<endl;
                         system("pause");
                         system("cls");
 
@@ -165,7 +178,7 @@ int main()
                 }else{
 
                     system("cls");
-                    cout <<"No hay Vinos en la lista"<<endl;
+                    cout <<"No hay Vinos en la lista vinos "<<endl;
                     system("pause");
                     system("cls");
 
@@ -178,6 +191,7 @@ int main()
                     system("cls");
                     ordenamientoRanking(lv);
                     MostrarListaVino(lv);
+
                     system("pause");
                     system("cls");
 
@@ -187,6 +201,56 @@ int main()
                     cout <<"No hay Vinos en la lista"<<endl;
                     system("pause");
                     system("cls");
+                }
+            }
+        break;
+        case 9:
+            {
+
+                if (ObtenerLongitud(lv)>0){
+                    Limpiar_Vinos_seleccionados(lv);
+                    if(ObtenerLongitud(lu)>0){
+                        if(ObtenerLongitud(lb)>0){
+                            system("cls");
+                            Nodo* puntero = lb->Primero;
+                            Nodo* puntero2 = lv->Primero;
+                            while(puntero->Siguiente != NULL){
+                                for(int i = 0; i < 6 ; i++){
+                                    long aux = getSeleccionVinos(puntero->b)[i];
+                                    rankingBodega(aux , lv);
+                                }
+                                puntero = puntero->Siguiente;
+
+                            }
+                            cout<<"Se realizo el ranking corectamente"<<endl;
+                            system("pause");
+                            system("cls");
+
+                        }else{
+
+                            system("cls");
+                            cout <<"No hay beneficios en la lista beneficios"<<endl;
+                            system("pause");
+                            system("cls");
+
+                        }
+
+                    }else{
+
+                        system("cls");
+                        cout <<"No hay Usuarios en la lista de usuarios"<<endl;
+                        system("pause");
+                        system("cls");
+
+                        }
+
+                }else{
+
+                    system("cls");
+                    cout <<"No hay Vinos en la lista vinos "<<endl;
+                    system("pause");
+                    system("cls");
+
                 }
             }
         break;

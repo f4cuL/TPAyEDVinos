@@ -38,6 +38,8 @@ Vino* ObtenerVino(int n ,Lista* lista);
 bool ElVinoExiste(long IDV , Lista* lista);
 void MostrarListaVino(Lista* l1);
 void ranking_de_vinos(long IDV , Lista* lista);
+void rankingBodega(long IDV, Lista* lista);
+void Limpiar_Vinos_seleccionados(Lista* lista);
 void ordenamientoRanking(Lista* lista);
 
 //BENEFICIOS
